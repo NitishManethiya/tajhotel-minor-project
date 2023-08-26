@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    overflow: hidden;
+}
+#head{
+    width: 1535px;
+}
+#id{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+#p{
+    width: 1200px;
+    position: relative;
+    top: 40px;
+    left: 180px;
+    text-align: center;
+}
+.class1{
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 660px;
+}
+.class2{
+    width: 500px;
+}
+#goa{
+    height: 300px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+#udaipur{
+    height: 300px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+#risi{
+    height: 300px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.g{
+    position: relative;
+    left: 200px;
+}
+.u{
+    position: relative;
+    left: 710px;
+    bottom: 30px;
+}
+.r{
+    position: relative;
+    left: 1200px;
+    bottom: 70px;
+}

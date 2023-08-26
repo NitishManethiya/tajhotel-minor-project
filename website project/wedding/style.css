@@ -1,0 +1,73 @@
+.container{
+   overflow: hidden;
+}
+#img{
+    width:500px;
+    height: 418px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+}
+#img1{
+    width: 500px;
+    height: 414px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+#img2{
+    width: 490px;
+    height: 414px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+#id{
+    position: relative;
+    left: 150px;
+}
+#p{
+    width: 300px;
+    position: relative;
+    left: 110px;
+}
+#id1
+{
+    position: relative;
+    left: 650px;
+    bottom: 114px;
+}
+#p1{
+    width:300px;
+    position: relative;
+    left:610px;
+    bottom: 120px;
+}
+#id2{
+    position: relative;
+    left: 1160px;
+    bottom:228px ;
+}
+#p2{
+    width: 300px;
+    position: relative;
+    left:1108px;
+    bottom: 238px;
+}
+#ti{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+#pvid{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    left: 420px;
+    width: 650px;
+}
+video{
+    position: relative;
+    left: 430px;
+    bottom: 200px;
+}
+div.fed{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}

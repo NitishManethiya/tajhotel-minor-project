@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <form action="reservation.php" method="post">
+        
+            <div class="input">
+                Your Name<input type="text" id="name" name="visitor_name" placeholder="Enter Your Name"
+                    pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="input">
+                Your E-mail<input type="email" id="email" name="visitor_email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="input">
+                Your Phone<input type="tel" id="phone" name="visitor_phone" placeholder="Enter Your Phone Number"
+                    pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+
+            <div class="select">
+                Adults<input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+            </div>
+            <div class="select">
+                Childern<input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+            </div>
+            <div class="select">
+                Check-in Date<input type="date" id="checkin-date" name="checkin" required>
+            </div>
+            <div class="select">
+
+                Check-Out Date<input type="date" id="checkout-date" name="checkout" required>
+            </div>
+            <div class="choose">
+                Select Room preference<select id="room-selection" name="room_preference" required>
+                    <option value="">Choose a Room from the List</option>
+                    <option value="connecting">Connecting</option>
+                    <option value="adjoining">Adjoining</option>
+                    <option value="adjacent">Adjacent</option>
+                </select>
+            </div>
+            <div class="choose">
+                Anything Else?<textarea id="message" name="visitor_message"
+                    placeholder="Tell us anything else that might be important." required></textarea>
+            </div>
+            <button type="submit">Book The Rooms</button>
+    </form>
+</div>
+</body>
+<script src="script.js"></script>
+
+</html>
